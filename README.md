@@ -1,3 +1,4 @@
 We use three datasets: MIT Reality Mining (http://konect.cc/networks/mit/), Primary School Contact (http://www.sociopatterns.org/datasets/primary-school-cumulative-networks/), and High School Contact (http://www.sociopatterns.org/datasets/high-school-contact-and-friendship-networks/).
 We perform the task of node's role prediction by implementing our proposed model, CT-EVGCN. We process temporal edges chronologically for each dataset to preserve the fine-grained event dynamics by avoiding discretizations of snapshots. At each continuous timestamp, we calculate node features and cluster them into three roles 
 (central, bridge, peripheral) using Mini-batch K-Means. We use Adam optimizer with early halting to train the model, and then we use classification metrics to evaluate the performance of CT-EVGCN.
+We upload the necessary background code to perform this task.
